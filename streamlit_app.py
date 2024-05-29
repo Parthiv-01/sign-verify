@@ -1,12 +1,8 @@
 import streamlit as st
-import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error, r2_score
-import altair as alt
-import time
-import zipfile
+import cv2
+from PIL import Image
+import tensorflow as tf
 
 st.title("Signature Verification")
 
